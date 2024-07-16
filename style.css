@@ -163,18 +163,34 @@ nav > ul > li > a {
         gap: 3rem;
         padding-bottom: 3rem;
     }
-    .header-content {
+    .header-content, .list-content {
         width: 100%;
     }
     .header-content > h1 {
         font-size: 6rem;
         margin-bottom: 1rem;
     }
-    .header-content > p {
+    .header-content > p, .list-content > p {
         margin-bottom: 2rem;
     }
-    .header-content > button {
+    .header-content > button, .list-content > button {
         font-size: 1.6rem;
         padding: 1.6rem 2.6rem;
+    }
+
+    /* quick list section */
+    .quick-list {
+        width: 90%;
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 8.5rem;
+    }
+    .image-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .list-content > h2 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
     }
 }

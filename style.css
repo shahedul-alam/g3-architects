@@ -89,3 +89,37 @@ nav > ul > li > a {
 .header-container > img {
     width: 100%;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    /* header section */
+    header > nav {
+        flex-direction: column;
+        gap: 2rem;
+        width: 90%;
+        padding: 3rem 0 6rem;
+    }
+    nav > p {
+        font-size: 3.5rem;
+    }
+    .header-container {
+        width: 90%;
+        gap: 3rem;
+        padding-bottom: 3rem;
+    }
+    .header-content {
+        width: 100%;
+    }
+    .header-content > h1 {
+        font-size: 6rem;
+        margin-bottom: 1rem;
+    }
+    .header-content > p {
+        margin-bottom: 2rem;
+    }
+    .header-content > button {
+        font-size: 1.6rem;
+        padding: 1.6rem 2.6rem;
+    }
+}

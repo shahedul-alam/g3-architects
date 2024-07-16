@@ -278,7 +278,39 @@ nav > ul > li > a {
     text-align: center;
 }
 
-
+/* sponsors section */
+.sponsors {
+    width: 80%;
+    max-width: 140rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 13rem;
+}
+.sponsors-content {
+    max-width: 542px;
+    margin-bottom: 5rem;
+}
+.sponsors-content > h2 {
+    color: rgb(19, 19, 19);
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+.sponsors-content > p {
+    color: rgb(114, 114, 114);
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+.brands-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 @media screen and (max-width: 576px) {

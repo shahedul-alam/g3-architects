@@ -243,17 +243,21 @@ nav > ul > li > a {
         gap: 3rem;
         padding-bottom: 3rem;
     }
-    .header-content, .list-content {
-        width: 100%;
+    .header-content, 
+    .list-content, 
+    .features-content {
+        max-width: 100%;
     }
     .header-content > h1 {
         font-size: 6rem;
         margin-bottom: 1rem;
     }
-    .header-content > p, .list-content > p {
+    .header-content > p, 
+    .list-content > p {
         margin-bottom: 2rem;
     }
-    .header-content > button, .list-content > button {
+    .header-content > button, 
+    .list-content > button {
         font-size: 1.6rem;
         padding: 1.6rem 2.6rem;
     }
@@ -272,5 +276,44 @@ nav > ul > li > a {
     .list-content > h2 {
         font-size: 3.5rem;
         margin-bottom: 1rem;
+    }
+
+    /* features section */ 
+    .features {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .features-content > h2 {
+        width: 100%;
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+        padding-left: 1rem;
+    }
+    .features-content > p {
+        width: 100%;
+    }
+    .features-cards {
+        width: fit-content;
+        padding: 2.5rem;
+    }
+    .features-cards > p {
+        font-size: 1.4rem;
+    }
+    .features-image > img {
+        width: 100%;
+    }
+    .years {
+        width: fit-content;
+        left: 0;
+        padding: 3.2rem 3.6rem;
+    }
+    .years > p:first-child {
+        font-size: 4.5rem;
+    }
+    .years > p:last-child {
+        font-size: 1.8rem;
     }
 }

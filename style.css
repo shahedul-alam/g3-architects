@@ -370,4 +370,35 @@ nav > ul > li > a {
     .years > p:last-child {
         font-size: 1.8rem;
     }
+
+    /* facts section */
+    .facts {
+        width: 90%;
+        margin-bottom: 12rem;
+    }
+    .facts-content {
+        width: 100%;
+    }
+    .facts-content > h2 {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .facts-content > p {
+        margin-bottom: 4rem;
+    }
+    .facts-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .facts-card {
+        width: 100%;
+    }
+    .facts-card > h3 {
+        font-size: 3.5rem;
+    }
+    .facts-card > p {
+        font-size: 1.6rem;
+    }
+
 }
